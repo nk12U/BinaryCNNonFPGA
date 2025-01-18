@@ -3,8 +3,8 @@
 データセットはMNISTを用いた。<br>
 Pythonディレクトリでモデルの学習とハードウェア実装用のパラメータデータファイルの生成を行う。
 # 参考文献
-BinaryNet	https://arxiv.org/pdf/1602.02830v1.pdf
-Qiita       https://qiita.com/Surumechaninjp/items/85912e57cc1681cbe1f8
+- BinaryNet	  https://arxiv.org/pdf/1602.02830v1.pdf
+- Qiita       https://qiita.com/Surumechaninjp/items/85912e57cc1681cbe1f8
 
 # コマンド
 ```
