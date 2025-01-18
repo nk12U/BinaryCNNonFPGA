@@ -7,7 +7,7 @@ import torch.utils.data as Data
 import numpy as np
 import os
 
-model = model.BinaryCNN();
+model = model.BinaryCNN()
 
 # load
 path = "model_weight.pth"

@@ -4,7 +4,7 @@ import torch.nn as nn
 class BinaryCNN(nn.Module):
   def __init__(self):
     super().__init__()
-    self.conv1 = layers.BinaryConv2dLayer(1, 1, 5);
+    self.conv1 = layers.BinaryConv2dLayer(1, 1, 5)
     self.step1 = layers.StepActivation.apply
     self.fc1 = layers.BinaryLinearLayer(24*24, 128)
     self.step2 = layers.StepActivation.apply

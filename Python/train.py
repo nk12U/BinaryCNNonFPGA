@@ -47,7 +47,7 @@ def train_step(x, t):
   optimizer.step()
   return loss, preds
  
-epochs = 10;
+epochs = 10
 for e in range(epochs):
   train_loss = 0
   test_loss = 0
